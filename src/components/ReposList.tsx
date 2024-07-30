@@ -1,9 +1,9 @@
-import { useState } from "react";
-import { useTypedSelector } from "../hooks/useTypedSelector";
-import { useActions } from "../hooks/useActions";
+import { useState } from 'react';
+import { useTypedSelector } from '../hooks/useTypedSelector';
+import { useActions } from '../hooks/useActions';
 
 const ReposList: React.FC = () => {
-  const [term, setTerm] = useState("");
+  const [term, setTerm] = useState('');
   const { searchRepos } = useActions();
   const { data, error, loading } = useTypedSelector((state) => state.repos);
 

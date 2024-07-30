@@ -1,6 +1,6 @@
-import { Provider } from "react-redux";
-import { store } from "../state";
-import ReposList from "./ReposList";
+import { Provider } from 'react-redux';
+import { store } from '../state';
+import ReposList from './ReposList';
 
 const App = () => {
   return (
